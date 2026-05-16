@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>نور على نور-الاخبار</title>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Amiri', serif;
+      background-color: #ffe6cc;
+    }
+
+    /* الشريط العلوي */
+    header {
+      background-color: #009999;
+      padding: 15px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 120px;
+      position: relative;
+      overflow: visible; /* يسمح بخروج جزء من الشعار */
+    }
+
+    .site-name {
+      font-size: 35px;
+      font-weight: bold;
+      color: #ffd633;
+      z-index: 2;
+    }
+
+    .logo-container {
+      position: relative;
+      width: 150px;
+    }
+
+    .logo-img {
+      position: absolute;
+      top: -30px;  /*يجعل جزء من الصورة يظهر فوق الهيدر */
+      height: 160px;
+      z-index: 1;
+    }
+
+    .start-button {
+      background-color: #009999;
+      color: white;
+      border: none;
+      padding: 10px 40px;
+      font-size: 30px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .start-button:hover {
+      background-color: #dffaf7;
+    }
+
+    .content {
+      text-align: center;
+      margin-top: 100px;
+      padding: 20px;
+    }
+
+    .description {
+      font-size: 30px;
+      color: #003333;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+h3{
+	text-align: center;
+}
+.navdar ul {
+  list-style-type: none;
+  background-color: #006666;
+  padding: 0px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* ⇠ المسافة بين اللنكات */
+}
+.navdar a{
+	font-size:20px;
+	color: #ffd633;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	text-align: center;
+}
+.navdar a:hover{
+	background-color:#004d4d;
+}
+.navdar li{
+	float: none;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="site-name">نُـوْرٌ عَلَـى نُــوْرٍ</div>
+    <div class="logo-container">
+      <img class="logo-img" src="C:\Users\ACER\Desktop\New folder (4)\WhatsApp_Image_2025-05-19_at_18.49.41_dfe6858b-removebg-preview.png" alt="شعار">
+    </div>
+  </header>
+<nav class="navdar">
+	<ul>
+		<li><a href="Home.html">الرئيسية</a></li>
+		<li><a href="About.html">من نحن</a></li>
+		<li><a href="News.html">الاخبار</a></li>
+		<li><a href="Quran.html">القران الكريم</a></li>
+		<li><a href="Athkar.html">الاذكار</a></li>
+
+
+	</ul>
+</nav>
+
+  <div class="content">
+    <p class="description">
+      مرحباً بكم في نور على نور ، موقعنا مخصص لتعلُّم القرآن الكريم وتدبّر الأذكار ومتابعة الدورات الإلكترونية. منصة متكاملة للطلاب والمعلمين، تُعزز الإنجاز والتفاعل الروحي والعلمي.
+    </p>
+    <p class="description">ابدأ رحلتك الآن</p>
+    <br>
+    <button class="start-button" onclick="startSite()">ابدأ</button>
+  </div>
+
+
+
+
+<main>
+	<h3>مرحبا بك في نور على نور</h3>
+</main>
+</body>
+</html>
+
